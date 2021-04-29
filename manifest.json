@@ -1,0 +1,16 @@
+{
+    "name": "Tips In Your Browser",
+    "description" : "Keep your tips abuot site",
+    "version": "1.0",
+    "permissions": [
+      "tabs",
+      "storage",
+      "unlimitedStorage"
+    ],
+	"content_security_policy": "script-src 'self' 'sha256-VE/XxKLfGcBDClGvj4C4tVGDnuZvrpZdZcjgf+S+iDw='; object-src 'self'",
+    "manifest_version": 2,
+    "browser_action": {
+      "default_popup": "main.html",
+      "default_icon": "halflife.png"
+    }
+  }
